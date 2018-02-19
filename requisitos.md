@@ -102,7 +102,7 @@
 
 | **R12**     | **Cambiar avatar del usuario**           |
 | --------------: | :------------------- |
-| **Descripción** | El usuario podrá modificar su imagen de avatar  en la pantalla de edición del perfil             |
+| **Descripción** | El usuario podrá modificar su imagen de avatar  en la pantalla de edición del perfil.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -203,12 +203,21 @@
 | --------------: | :------------------- |
 | **Descripción** | Cada vez que se active o desactive algún módulo se creará un registro en un log indicando el evento y la fecha y hora del mismo.             |
 | **Prioridad**   | Opcional           |
-| **Tipo**        | Información                |
+| **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R24**     | **Crear publicación en el tablón**           |
+| **R24**     | **Visualizar un archivo GPX**           |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación tendrá un apartado que permitirá la visualización de un recorrido o ruta en el Google Maps guardado en un archivo tipo GPX.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R25**     | **Crear publicación en el tablón**           |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá crear una nueva publicación en un tablón.             |
 | **Prioridad**   | Importante           |
@@ -217,7 +226,7 @@
 | **Entrega**     | v2             |
 
 
-| **R25**     | **Modificar publicación en el tablón**           |
+| **R26**     | **Modificar publicación en el tablón**           |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá modificar una publicación que haya creado él mismo en el tablón.             |
 | **Prioridad**   | Importante           |
@@ -226,7 +235,7 @@
 | **Entrega**     | v2             |
 
 
-| **R26**     | **Borrar publicación en el tablón**           |
+| **R27**     | **Borrar publicación en el tablón**           |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá borrar una publicación que haya creado él mismo en el tablón.             |
 | **Prioridad**   | Importante           |
@@ -235,7 +244,7 @@
 | **Entrega**     | v2             |
 
 
-| **R27**     | **El tablón podrá ser visualizado sin estar logueado**           |
+| **R28**     | **El tablón podrá ser visualizado sin estar logueado**           |
 | --------------: | :------------------- |
 | **Descripción** | La lista de todas las publicaciones del tablón podrán ser visualizadas por cualquier visitante de la página.             |
 | **Prioridad**   | Importante           |
@@ -244,7 +253,7 @@
 | **Entrega**     | v2             |
 
 
-| **R28**     | **Los usuarios pueden comentar las publicaciones de otros usuarios**           |
+| **R29**     | **Los usuarios pueden comentar las publicaciones de otros usuarios**           |
 | --------------: | :------------------- |
 | **Descripción** | Los usuarios puden comentar las publicaciones que hayan realizado otros usuarios.             |
 | **Prioridad**   | Opcional           |
@@ -253,7 +262,7 @@
 | **Entrega**     | v3             |
 
 
-| **R29**     | **Los usuarios podrán mandar mensajes privados a otros usuarios**           |
+| **R30**     | **Los usuarios podrán mandar mensajes privados a otros usuarios**           |
 | --------------: | :------------------- |
 | **Descripción** | Los usuarios podrán mandar mensajes privados a otros usuarios. lo recibirán en su buzón de entrada.             |
 | **Prioridad**   | Importante           |
@@ -262,16 +271,16 @@
 | **Entrega**     | v2             |
 
 
-| **R30**     | **Los usuarios podrán consultar los mensajes privados enviados a  otros usuarios**           |
+| **R31**     | **Los usuarios podrán consultar los mensajes privados enviados a  otros usuarios**           |
 | --------------: | :------------------- |
-| **Descripción** | Los usuarios podrán consultar los mensajes privados enviados a  otros usuarios, los cuales estarán en la bandeja de salida             |
+| **Descripción** | Los usuarios podrán consultar los mensajes privados enviados a  otros usuarios, los cuales estarán en la bandeja de salida.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R31**     | **Los usuarios podrán borrar los mensajes recibidos y enviados a otros usuarios**           |
+| **R32**     | **Los usuarios podrán borrar los mensajes recibidos y enviados a otros usuarios**           |
 | --------------: | :------------------- |
 | **Descripción** | Los usuarios podrán borrar tanto los mensajes recibidos por otros usuarios o los mensajes que hayan enviado ellos.             |
 | **Prioridad**   | Opcional           |
@@ -280,7 +289,7 @@
 | **Entrega**     | v2             |
 
 
-| **R32**     | **Al usuario se le mandará un correo electrónico cada vez que reciba un mensaje privado**           |
+| **R33**     | **Al usuario se le mandará un correo electrónico cada vez que reciba un mensaje privado**           |
 | --------------: | :------------------- |
 | **Descripción** | Los usuarios que reciban un mensaje privado serán avisados con un correo electrónico.             |
 | **Prioridad**   | Opcional           |
@@ -289,7 +298,7 @@
 | **Entrega**     | v3             |
 
 
-| **R33**     | **El administrador podrá ver a los usuarios**           |
+| **R34**     | **El administrador podrá ver a los usuarios**           |
 | --------------: | :------------------- |
 | **Descripción** | El administrador podrá consultar en una lista todos los usuarios existentes.             |
 | **Prioridad**   | Importante           |
@@ -298,7 +307,7 @@
 | **Entrega**     | v3             |
 
 
-| **R34**     | **El administrador podrá modificar a los usuarios**           |
+| **R35**     | **El administrador podrá modificar a los usuarios**           |
 | --------------: | :------------------- |
 | **Descripción** | El administrador podrá modificar los datos de los usuarios.             |
 | **Prioridad**   | Importante           |
@@ -307,7 +316,7 @@
 | **Entrega**     | v3             |
 
 
-| **R35**     | **El administrador podrá borrar a los usuarios**           |
+| **R36**     | **El administrador podrá borrar a los usuarios**           |
 | --------------: | :------------------- |
 | **Descripción** | El administrador podrá borrar a los usuarios.             |
 | **Prioridad**   | Importante           |
@@ -316,7 +325,7 @@
 | **Entrega**     | v3             |
 
 
-| **R36**     | **El administrador podrá borrar las publicaciones de los usuarios**           |
+| **R37**     | **El administrador podrá borrar las publicaciones de los usuarios**           |
 | --------------: | :------------------- |
 | **Descripción** | El administrador podrá borrar las publicaciones que los usuarios hayan realizado en el tablón.             |
 | **Prioridad**   | Opcional           |
@@ -325,7 +334,7 @@
 | **Entrega**     | v3             |
 
 
-| **R37**     | **El administrador podrá mandar mensajes en grupo a todos los usuarios**           |
+| **R38**     | **El administrador podrá mandar mensajes en grupo a todos los usuarios**           |
 | --------------: | :------------------- |
 | **Descripción** | El administrador podrá mandar mensajes que lleguen a todos los usuarios a la vez.             |
 | **Prioridad**   | Importante           |
@@ -334,7 +343,7 @@
 | **Entrega**     | v3             |
 
 
-| **R38**     | **El administrador podrá ver en un mapa la geolocalización de los usuarios**           |
+| **R39**     | **El administrador podrá ver en un mapa la geolocalización de los usuarios**           |
 | --------------: | :------------------- |
 | **Descripción** | El administrador podrá consultar en un mapa la geolocalización de todos los usuarios a través de marcadores.             |
 | **Prioridad**   | Importante           |
@@ -343,7 +352,88 @@
 | **Entrega**     | v3             |
 
 
-| **R39**     | **Validación de los formularios**           |
+| **R40**     | **Usuarios**           |
+| --------------: | :------------------- |
+| **Descripción** | De los usuarios se almacenará su nombre de usuario, contraseña, email, nombre y apellidos, dirección, teléfono, sexo, zona horaria, geolocalización y su avatar.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R41**     | **Secciones**           |
+| --------------: | :------------------- |
+| **Descripción** | De las secciones de la casa se almacenará su nombre y el usuario al que pertenece.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R42**     | **Habitaciones**           |
+| --------------: | :------------------- |
+| **Descripción** | De las habitaciones se almacenará su nombre, la sección a la que pertenece y su icono.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **Cámaras de videovigilancia**           |
+| --------------: | :------------------- |
+| **Descripción** | De las cámaras se almacenará su nombre, su dirección ip y el usuario al que pertenece.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Módulos de domótica**           |
+| --------------: | :------------------- |
+| **Descripción** | De los módulos de domótica se almacenará su nombre, tipo, habitación a la que pertenece y su estado.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R45**     | **Logs**           |
+| --------------: | :------------------- |
+| **Descripción** | De los logs se almacenará el módulo de domótica, el estado y la fecha y hora del mismo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Publicaciones del tablón**           |
+| --------------: | :------------------- |
+| **Descripción** | De las publicaciones se almacenará el usuario, el mensaje y la fecha y hora de publicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R47**     | **Comentarios a publicaciones del tablón**           |
+| --------------: | :------------------- |
+| **Descripción** | De los comentarios se almacenará el usuario, la publicación a la que se refiere, el mensaje y la fecha y hora del comentario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Mensajes privados**           |
+| --------------: | :------------------- |
+| **Descripción** | Del mensaje privado se almacenará el usuario origen, el usuario destino, el mensaje y la fecha y hora de envío.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R49**     | **Validación de los formularios**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -352,7 +442,7 @@
 | **Entrega**     | v3             |
 
 
-| **R40**     | **Gestión de ventanas**           |
+| **R50**     | **Gestión de ventanas**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -361,7 +451,7 @@
 | **Entrega**     | v3             |
 
 
-| **R41**     | **Uso de mecanismos de manejo de eventos**           |
+| **R51**     | **Uso de mecanismos de manejo de eventos**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -370,7 +460,7 @@
 | **Entrega**     | v3             |
 
 
-| **R42**     | **Uso y manipulación del DOM**           |
+| **R52**     | **Uso y manipulación del DOM**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -379,7 +469,7 @@
 | **Entrega**     | v3             |
 
 
-| **R43**     | **Almacenamiento en el lado del cliente**           |
+| **R53**     | **Almacenamiento en el lado del cliente**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -388,7 +478,7 @@
 | **Entrega**     | v3             |
 
 
-| **R44**     | **Uso de JQUERY**           |
+| **R54**     | **Uso de JQUERY**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -397,7 +487,7 @@
 | **Entrega**     | v3             |
 
 
-| **R45**     | **Uso de algún plugin**           |
+| **R55**     | **Uso de algún plugin**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -406,7 +496,7 @@
 | **Entrega**     | v3             |
 
 
-| **R46**     | **Uso de AJAX**           |
+| **R56**     | **Uso de AJAX**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -415,7 +505,7 @@
 | **Entrega**     | v3             |
 
 
-| **R47**     | **PHP 7.1**           |
+| **R57**     | **PHP 7.1**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -424,7 +514,7 @@
 | **Entrega**     | v1             |
 
 
-| **R48**     | **Yii2 2.0.10**           |
+| **R58**     | **Yii2 2.0.10**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -433,7 +523,7 @@
 | **Entrega**     | v1             |
 
 
-| **R49**     | **PostgreSQL 9.6**           |
+| **R59**     | **PostgreSQL 9.6**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -442,7 +532,7 @@
 | **Entrega**     | v1             |
 
 
-| **R50**     | **Despliegue en Heroku**           |
+| **R60**     | **Despliegue en Heroku**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -451,7 +541,7 @@
 | **Entrega**     | v3             |
 
 
-| **R51**     | **Pruebas con Codeception**           |
+| **R61**     | **Pruebas con Codeception**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -460,7 +550,7 @@
 | **Entrega**     | v3             |
 
 
-| **R52**     | **Validar con Code Climate**           |
+| **R62**     | **Validar con Code Climate**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -469,7 +559,7 @@
 | **Entrega**     | v3             |
 
 
-| **R53**     | **Escalabilidad**           |
+| **R63**     | **Escalabilidad**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -478,7 +568,7 @@
 | **Entrega**     | v3             |
 
 
-| **R54**     | **Uso de HTML5**           |
+| **R64**     | **Uso de HTML5**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -487,7 +577,7 @@
 | **Entrega**     | v1             |
 
 
-| **R55**     | **Uso de CSS**           |
+| **R65**     | **Uso de CSS**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -496,7 +586,7 @@
 | **Entrega**     | v1             |
 
 
-| **R56**     | **Diseño flexible**           |
+| **R66**     | **Diseño flexible**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -505,7 +595,7 @@
 | **Entrega**     | v2             |
 
 
-| **R57**     | **Existencia de transiciones, transformaciones, animaciones y contenido multimedia**           |
+| **R67**     | **Existencia de transiciones, transformaciones, animaciones y contenido multimedia**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -514,7 +604,7 @@
 | **Entrega**     | v3             |
 
 
-| **R58**     | **Validación de HTML y CSS, nivel de accesibilidad AA y prueba del seis**           |
+| **R68**     | **Validación de HTML y CSS, nivel de accesibilidad AA y prueba del seis**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -523,7 +613,7 @@
 | **Entrega**     | v3             |
 
 
-| **R59**     | **Implementar para varias resoluciones**           |
+| **R69**     | **Implementar para varias resoluciones**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -532,7 +622,7 @@
 | **Entrega**     | v3             |
 
 
-| **R60**     | **Comprobación en varios navegadores**           |
+| **R70**     | **Comprobación en varios navegadores**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -541,7 +631,7 @@
 | **Entrega**     | v3             |
 
 
-| **R61**     | **Desplegar en un Host**           |
+| **R71**     | **Desplegar en un Host**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -550,7 +640,7 @@
 | **Entrega**     | v3             |
 
 
-| **R62**     | **Desplegar en un servidor local**           |
+| **R72**     | **Desplegar en un servidor local**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -586,43 +676,53 @@
 | (**R20**) Borrar habitación | Importante | Funcional | Fácil | v2 |
 | (**R21**) Borrar módulo | Importante | Funcional | Fácil | v2 |
 | (**R22**) Añadir cámaras de videovigilancia | Opcional | Funcional | Difícil | v3 |
-| (**R23**) Crear un log con cada evento | Opcional | Información | Media | v2 |
-| (**R24**) Crear publicación en el tablón | Importante | Funcional | Media | v2 |
-| (**R25**) Modificar publicación en el tablón | Importante | Funcional | Fácil | v2 |
-| (**R26**) Borrar publicación en el tablón | Importante | Funcional | Fácil | v2 |
-| (**R27**) El tablón podrá ser visualizado sin estar logueado | Importante | Funcional | Fácil | v2 |
-| (**R28**) Los usuarios pueden comentar las publicaciones de otros usuarios | Opcional | Funcional | Media | v3 |
-| (**R29**) Los usuarios podrán mandar mensajes privados a otros usuarios | Importante | Funcional | Difícil | v2 |
-| (**R30**) Los usuarios podrán consultar los mensajes privados enviados a  otros usuarios | Importante | Funcional | Media | v2 |
-| (**R31**) Los usuarios podrán borrar los mensajes recibidos y enviados a otros usuarios | Opcional | Funcional | Media | v2 |
-| (**R32**) Al usuario se le mandará un correo electrónico cada vez que reciba un mensaje privado | Opcional | Funcional | Media | v3 |
-| (**R33**) El administrador podrá ver a los usuarios | Importante | Funcional | Fácil | v3 |
-| (**R34**) El administrador podrá modificar a los usuarios | Importante | Funcional | Fácil | v3 |
-| (**R35**) El administrador podrá borrar a los usuarios | Importante | Funcional | Fácil | v3 |
-| (**R36**) El administrador podrá borrar las publicaciones de los usuarios | Opcional | Funcional | Media | v3 |
-| (**R37**) El administrador podrá mandar mensajes en grupo a todos los usuarios | Importante | Funcional | Difícil | v3 |
-| (**R38**) El administrador podrá ver en un mapa la geolocalización de los usuarios | Importante | Funcional | Difícil | v3 |
-| (**R39**) Validación de los formularios | Mínimo | Técnico | Media | v3 |
-| (**R40**) Gestión de ventanas | Mínimo | Técnico | Media | v3 |
-| (**R41**) Uso de mecanismos de manejo de eventos | Mínimo | Técnico | Media | v3 |
-| (**R42**) Uso y manipulación del DOM | Mínimo | Técnico | Fácil | v3 |
-| (**R43**) Almacenamiento en el lado del cliente | Mínimo | Técnico | Media | v3 |
-| (**R44**) Uso de JQUERY | Mínimo | Técnico | Fácil | v3 |
-| (**R45**) Uso de algún plugin | Mínimo | Técnico | Media | v3 |
-| (**R46**) Uso de AJAX | Mínimo | Técnico | Media | v3 |
-| (**R47**) PHP 7.1 | Mínimo | Técnico | Fácil | v1 |
-| (**R48**) Yii2 2.0.10 | Mínimo | Técnico | Fácil | v1 |
-| (**R49**) PostgreSQL 9.6 | Mínimo | Técnico | Fácil | v1 |
-| (**R50**) Despliegue en Heroku | Mínimo | Técnico | Media | v3 |
-| (**R51**) Pruebas con Codeception | Mínimo | Técnico | Difícil | v3 |
-| (**R52**) Validar con Code Climate | Mínimo | Técnico | Difícil | v3 |
-| (**R53**) Escalabilidad | Mínimo | Técnico | Media | v3 |
-| (**R54**) Uso de HTML5 | Mínimo | Técnico | Fácil | v1 |
-| (**R55**) Uso de CSS | Mínimo | Técnico | Fácil | v1 |
-| (**R56**) Diseño flexible | Mínimo | Técnico | Media | v2 |
-| (**R57**) Existencia de transiciones, transformaciones, animaciones y contenido multimedia | Mínimo | Técnico | Difícil | v3 |
-| (**R58**) Validación de HTML y CSS, nivel de accesibilidad AA y prueba del seis | Mínimo | Técnico | Media | v3 |
-| (**R59**) Implementar para varias resoluciones | Mínimo | Técnico | Difícil | v3 |
-| (**R60**) Comprobación en varios navegadores | Mínimo | Técnico | Fácil | v3 |
-| (**R61**) Desplegar en un Host | Mínimo | Técnico | Fácil | v3 |
-| (**R62**) Desplegar en un servidor local | Mínimo | Técnico | Media | v3 |
+| (**R23**) Crear un log con cada evento | Opcional | Funcional | Media | v2 |
+| (**R24**) Visualizar un archivo GPX | Opcional | Funcional | Difícil | v3 |
+| (**R25**) Crear publicación en el tablón | Importante | Funcional | Media | v2 |
+| (**R26**) Modificar publicación en el tablón | Importante | Funcional | Fácil | v2 |
+| (**R27**) Borrar publicación en el tablón | Importante | Funcional | Fácil | v2 |
+| (**R28**) El tablón podrá ser visualizado sin estar logueado | Importante | Funcional | Fácil | v2 |
+| (**R29**) Los usuarios pueden comentar las publicaciones de otros usuarios | Opcional | Funcional | Media | v3 |
+| (**R30**) Los usuarios podrán mandar mensajes privados a otros usuarios | Importante | Funcional | Difícil | v2 |
+| (**R31**) Los usuarios podrán consultar los mensajes privados enviados a  otros usuarios | Importante | Funcional | Media | v2 |
+| (**R32**) Los usuarios podrán borrar los mensajes recibidos y enviados a otros usuarios | Opcional | Funcional | Media | v2 |
+| (**R33**) Al usuario se le mandará un correo electrónico cada vez que reciba un mensaje privado | Opcional | Funcional | Media | v3 |
+| (**R34**) El administrador podrá ver a los usuarios | Importante | Funcional | Fácil | v3 |
+| (**R35**) El administrador podrá modificar a los usuarios | Importante | Funcional | Fácil | v3 |
+| (**R36**) El administrador podrá borrar a los usuarios | Importante | Funcional | Fácil | v3 |
+| (**R37**) El administrador podrá borrar las publicaciones de los usuarios | Opcional | Funcional | Media | v3 |
+| (**R38**) El administrador podrá mandar mensajes en grupo a todos los usuarios | Importante | Funcional | Difícil | v3 |
+| (**R39**) El administrador podrá ver en un mapa la geolocalización de los usuarios | Importante | Funcional | Difícil | v3 |
+| (**R40**) Usuarios | Importante | Información | Fácil | v1 |
+| (**R41**) Secciones | Importante | Información | Fácil | v1 |
+| (**R42**) Habitaciones | Importante | Información | Fácil | v1 |
+| (**R43**) Cámaras de videovigilancia | Importante | Información | Fácil | v1 |
+| (**R44**) Módulos de domótica | Importante | Información | Fácil | v1 |
+| (**R45**) Logs | Importante | Información | Fácil | v1 |
+| (**R46**) Publicaciones del tablón | Importante | Información | Fácil | v1 |
+| (**R47**) Comentarios a publicaciones del tablón | Importante | Información | Fácil | v1 |
+| (**R48**) Mensajes privados | Importante | Información | Fácil | v1 |
+| (**R49**) Validación de los formularios | Mínimo | Técnico | Media | v3 |
+| (**R50**) Gestión de ventanas | Mínimo | Técnico | Media | v3 |
+| (**R51**) Uso de mecanismos de manejo de eventos | Mínimo | Técnico | Media | v3 |
+| (**R52**) Uso y manipulación del DOM | Mínimo | Técnico | Fácil | v3 |
+| (**R53**) Almacenamiento en el lado del cliente | Mínimo | Técnico | Media | v3 |
+| (**R54**) Uso de JQUERY | Mínimo | Técnico | Fácil | v3 |
+| (**R55**) Uso de algún plugin | Mínimo | Técnico | Media | v3 |
+| (**R56**) Uso de AJAX | Mínimo | Técnico | Media | v3 |
+| (**R57**) PHP 7.1 | Mínimo | Técnico | Fácil | v1 |
+| (**R58**) Yii2 2.0.10 | Mínimo | Técnico | Fácil | v1 |
+| (**R59**) PostgreSQL 9.6 | Mínimo | Técnico | Fácil | v1 |
+| (**R60**) Despliegue en Heroku | Mínimo | Técnico | Media | v3 |
+| (**R61**) Pruebas con Codeception | Mínimo | Técnico | Difícil | v3 |
+| (**R62**) Validar con Code Climate | Mínimo | Técnico | Difícil | v3 |
+| (**R63**) Escalabilidad | Mínimo | Técnico | Media | v3 |
+| (**R64**) Uso de HTML5 | Mínimo | Técnico | Fácil | v1 |
+| (**R65**) Uso de CSS | Mínimo | Técnico | Fácil | v1 |
+| (**R66**) Diseño flexible | Mínimo | Técnico | Media | v2 |
+| (**R67**) Existencia de transiciones, transformaciones, animaciones y contenido multimedia | Mínimo | Técnico | Difícil | v3 |
+| (**R68**) Validación de HTML y CSS, nivel de accesibilidad AA y prueba del seis | Mínimo | Técnico | Media | v3 |
+| (**R69**) Implementar para varias resoluciones | Mínimo | Técnico | Difícil | v3 |
+| (**R70**) Comprobación en varios navegadores | Mínimo | Técnico | Fácil | v3 |
+| (**R71**) Desplegar en un Host | Mínimo | Técnico | Fácil | v3 |
+| (**R72**) Desplegar en un servidor local | Mínimo | Técnico | Media | v3 |
